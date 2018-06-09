@@ -1,0 +1,293 @@
+        /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+	width: 1024px;
+    margin:0 auto;
+}
+.topmenu{
+	background: #4A90E2;
+	height: 76px;
+}
+.menu{
+   text-align:center;  
+}
+.menu ul{
+	display: inline-block;
+	margin-top: 20px;
+}
+.menu li{
+	float:left;	
+	margin:0px 20px 0px 20px;
+}
+.menu li a{
+	font-family:Roboto-Medium;
+	font-size: 24px;
+	color:#00408B;
+	text-decoration: none;
+	padding:10px 40px 25px 40px;
+    cursor: pointer;
+    
+}
+.menu li a:hover{
+	color:#FFFFFF ;
+	border-bottom: 5px solid #00408B;
+}
+.content{
+	background: #E1E1E1;
+	
+	text-align:center;
+}
+.box1 input{
+	background: white;
+	border:2px solid #C8C8C8;
+	border-radius: 5px;
+	display:inline-block;
+	margin-top: 20px;
+	font-size: 24px;
+	width: 550px;
+	font-family: Roboto-Regular;
+	padding: 15px
+}
+.box2{
+	background: #FFF2DC;
+    width: 580px;
+    height: 100px;
+    display:inline-block;
+    margin-top: 20px;
+    position: relative;
+}
+.box2 p{
+	font-family:Roboto-Medium;
+	color:black;
+	font-size: 30px;
+	text-align: left;
+	padding:20px 0px 0px 40px; 
+}
+.box2-1{
+	position: absolute;
+	bottom:15px;
+	left:40px;
+    color:#757575;
+}
+.box2-1 a{
+	text-decoration: none;
+	font-size: 20px;
+	color:#757575;
+}
+.box2-1 i:before{
+	margin-right: 10px;
+}
+
+.white-icon{
+	position: absolute;
+	top:-40px;
+	left:-30px;
+	background: black;
+	height: 20px;
+	width: 20px;
+}
+span{
+	margin: 0px 10px 0px 10px	
+}
+#yellowstar{
+	
+}
+.star{
+	position: absolute;
+	right:-480px;
+	top:0px;
+	color:#F5A623;
+}	
+.pen{
+	position: absolute;
+	right:-520px;
+	top:0px;
+}
+.box3{
+	background: #FFF2DC;
+    width: 580px;
+    height: 100px;
+    display:inline-block;
+    margin-top: 20px;
+    position: relative;
+}
+.box3 p{
+	font-family:Roboto-Medium;
+	color:black;
+	font-size: 30px;
+	text-align: left;
+	padding:20px 0px 0px 40px; 
+}
+.box3-1{
+	position: absolute;
+	bottom:15px;
+	left:40px;
+	color:#757575;
+}
+.box3-1 i{
+	margin: 0px 5px 0px 5px;
+}
+
+
+
+.box4{
+	background: white;
+    width: 580px;
+    height: 100px;
+    display:inline-block;
+    margin-top: 20px;
+    position: relative;
+}
+.box4 p{
+	font-family:Roboto-Medium;
+	color:black;
+	font-size: 30px;
+	text-align: left;
+	padding:20px 0px 0px 40px; 
+}
+.box4-1{
+	position: absolute;
+	bottom:15px;
+	left:40px;
+	color:#757575;
+}
+.box4-1 a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #757575;
+}
+.box4-1 i:before{
+	margin-right: 10px;
+}
+.star2 {
+	position: absolute;
+	right:-415px;
+	top: -35px
+}
+.pen2{
+	position: absolute;
+	right:-452px;
+	top: -35px
+}
+.box5{
+	background: white;
+    width: 580px;
+    height: 100px;
+    display:inline-block;
+    margin-top: 20px;
+    position: relative;
+}
+.box5 p{
+	font-family:Roboto-Medium;
+	color:black;
+	font-size: 30px;
+	text-align: left;
+	padding:20px 0px 0px 40px; 
+}
+.box5-1{
+	position: absolute;
+	bottom:15px;
+	left:40px;
+	color:#757575;
+}
+.star3 {
+	position: absolute;
+	right:-455px;
+	top: -35px
+}
+.pen3 {
+	position: absolute;
+	right:-491px;
+	top: -35px
+}
+.box6{
+	background: white;
+    width: 580px;
+    height: 100px;
+    display:inline-block;
+    margin-top: 20px;
+    position: relative;
+}
+.box6 p{
+	font-family:Roboto-Medium;
+	color:#9B9B9B;
+	font-size: 30px;
+	text-align: left;
+	padding:20px 0px 0px 40px; 
+	text-decoration: line-through;
+}
+.blue-icon{
+	position: absolute;
+	top:28px;
+	left:10px;
+	background: #4A90E2 ;
+	height: 20px;
+	width: 20px;
+}
+.blue-icon i{
+	color:white;
+	font-size: 5px
+}
+.footer{
+	background: #E1E1E1;
+    height: 100px;
+    width: 1024px;
+    text-align: center;
+    position: relative;
+
+}
+
+.footer p{
+	color:#C8C8C8;
+	font-size: 24px;
+    display:inline-block;
+    position: absolute;
+    left: 235px;
+}
